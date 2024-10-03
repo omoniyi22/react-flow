@@ -32,7 +32,37 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.box-center {
+  position: absolute;
+  max-inline-size: 100%;
+  inline-size: 100%;
+  block-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+
+.rs-dropdown-toggle.rs-btn.rs-btn-default svg {
+  margin-top: 5px !important;
+  font-size: 16px !important;
+
+}
+
+.rs-dropdown-toggle.rs-btn.rs-btn-default {
+  font-size: 19px !important;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+
+  padding-left: 20px;
 }
