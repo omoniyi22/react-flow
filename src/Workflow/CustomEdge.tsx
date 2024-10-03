@@ -41,10 +41,10 @@ export default function CustomEdge(props: EdgeProps) {
                     pos="absolute"
                     fontSize={"12px"}
                     cursor={"pointer"}
-                    icon={<X />} // Custom icon
+                    icon={<X style={{ border: "1px solid border" }} fontSize={20} />} // Custom icon
                     // icon={<div style={{ color: 'red', fontSize:"14px" }}>x</div>} // Custom icon
                     color="red"
-                    transform={`translate(-1710%, -30%) translate(${labelX}px, ${labelY}px)`}
+                    transform={`translate(-1300%, -30%) translate(${labelX}px, ${labelY}px)`}
                     pointerEvents="all"
                     bg="transparent"
                     size="lg"
