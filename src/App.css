@@ -53,14 +53,14 @@
 }
 
 
-.rs-dropdown-toggle.rs-btn.rs-btn-default svg {
+.rs-dropdown-toggle.rs-btn.rs-btn-primary svg {
   margin-top: 5px !important;
   font-size: 16px !important;
 
 }
 
-.rs-dropdown-toggle.rs-btn.rs-btn-default {
-  font-size: 29px !important;
+.rs-dropdown-toggle.rs-btn.rs-btn-primary {
+  font-size: 17.7px !important;
   padding-top: 13px !important;
   padding-bottom: 13px !important;
 
